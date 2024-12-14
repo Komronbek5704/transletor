@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjimon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Tarjimon</h1>
+
+        <div class="form-container">
+            <textarea id="inputText" placeholder="Tarjima qilmoqchi bo'lgan matnni kiriting..."></textarea>
+            <select id="languageSelect">
+                <option value="en">Inglizcha</option>
+                <option value="ru">Ruscha</option>
+                <option value="es">Ispancha</option>
+                <option value="fr">Fransuzcha</option>
+                <option value="de">Nemischa</option>
+            </select>
+            <button onclick="translateText()">Tarjima qilish</button>
+            <textarea id="outputText" placeholder="Natijani bu yerda ko'ring..." readonly></textarea>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
